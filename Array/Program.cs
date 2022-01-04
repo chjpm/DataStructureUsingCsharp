@@ -10,14 +10,13 @@ class Program {
         #endregion
 
         #region [1- Program for array rotation]
-        //Print("Started Program 1 \n");
-        //Array.ArrayRotation.Array_Rotation(arr, d, n);
+        Print("1- Array Rotation using temp variable: \n");
+        ArrayRotation.usingTempVariable(arr, d, n);
         #endregion
 
-
         #region [2- Reversal algorithm for array rotation]
-        Print("Started Program 2 \n");
-        ArrayRotateUsingReverse.rotate(arr, d, n);
+        Print("2- Array rotation using array reverse logic \n");
+        ArrayRotation.usingArrayReverse(arr, d, n);
         //ArrayRotateUsingReverse.reverseArray(); //Testing code
         #endregion
 
